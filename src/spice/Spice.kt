@@ -1,8 +1,15 @@
 package spice
 
 fun main() {
-    val spice = Spice("Cayenne", spiciness= "Hot")
-    println(spice.heat)
+    val spices1 = listOf(
+        Spice("curry", "mild"),
+        Spice("pepper", "medium"),
+        Spice("cayenne", "spicy"),
+        Spice("ginger", "mild"),
+        Spice("red curry", "medium"),
+        Spice("green curry", "mild"),
+        Spice("hot pepper", "extremely spicy")
+    )
 }
 
 val spices1 = listOf(
